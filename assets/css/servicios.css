@@ -215,20 +215,41 @@ font-size: 18px;
     }   
 
 .mod-newsflash-adv.services .item.icon-solicitud-de-servicio .item_content:after {
-  background: url(../images/servicios/solicitud-de-servicio.png) center 0 no-repeat;
+  background: url(../images/servicios/hogares/solicitud-de-servicio.png) center 0 no-repeat;
 }
 .mod-newsflash-adv.services .item.icon-reclamos .item_content:after {
-  background: url(../images/servicios/reclamos.png) center 0 no-repeat;
+  background: url(../images/servicios/hogares/reclamos.png) center 0 no-repeat;
 }
 .mod-newsflash-adv.services .item.icon-denuncias-ilicitos .item_content:after {
-  background: url(../images/servicios/denuncias-ilicitos.png) center 0 no-repeat;
+  background: url(../images/servicios/hogares/denuncias-ilicitos.png) center 0 no-repeat;
 }
 .mod-newsflash-adv.services .item.icon-pago-electronico .item_content:after {
-  background: url(../images/servicios/pago-electronico.png) center 0 no-repeat;
+  background: url(../images/servicios/hogares/pago-electronico.png) center 0 no-repeat;
 }
 .mod-newsflash-adv.services .item.icon-cambiar-domicilio-postal .item_content:after {
-  background: url(../images/servicios/cambiar-domicilio-postal.png) center 0 no-repeat;
+  background: url(../images/servicios/hogares/cambiar-domicilio-postal.png) center 0 no-repeat;
 }
+
+.mod-newsflash-adv.services .servicios-proveedores .item.i-listado-licitaciones .item_content:after {
+  background: url(../images/servicios/proveedores/i-listado-licitaciones.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .servicios-proveedores .item.i-listado-aseguradoras .item_content:after {
+  background: url(../images/servicios/proveedores/i-listado-aseguradoras.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .servicios-proveedores .item.i-listado-adjudicaciones .item_content:after {
+  background: url(../images/servicios/proveedores/i-listado-adjudicaciones.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .servicios-proveedores .item.i-normativa .item_content:after {
+  background: url(../images/servicios/proveedores/i-normativa.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .servicios-proveedores .item.i-acceso-pecc .item_content:after {
+  background: url(../images/servicios/proveedores/i-acceso-pecc.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .item.i-carga-y-descarga-de-mapas .item_content:after {
+  background: url(../images/servicios/cooperativas/i-carga-y-descarga-de-mapas.png) center 0 no-repeat;
+}
+
+
 .row-ver-mas {
     width: 100%;
 }
