@@ -17,6 +17,7 @@ Amarillo    FABA00
 @media (min-width: 1200px) { ... }
 
 */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
@@ -337,85 +338,282 @@ section.home .paga-tu-factura {
 }
 
 
+.section-oficina-virtual {
 
+}
+.oficina-virtual-container {
+
+}
 .row-oficina-virtual {
-    border-top: 6px solid #006D59;
+    
 }
 .col-oficina-virtual {    
     padding-right: 15px!important;
+}
+.oficina-virtual {
+    
+}
+.oficina-virtual-plus {
+    padding: 15px;
+}
+.oficina-virtual-plus .loguito {
+    float: left;
+    width: 50px;
+}
+.oficina-virtual-plus .loguito img {
+    width: 50px;
+}
+.oficina-virtual-plus .epeconline {
+    float: left;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    min-width: 70%;
+}
+.oficina-virtual-plus h5 {
+    float: left;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.oficina-virtual-ingresar {
+    width: 100%;
+    float: left;
+}
+.md-form {
+    color: #fff;
+}
+.oficina-virtual-ingresar .md-form .prefix {
+    color: #fff;
+    top: 0.75rem;
+    font-size: 1rem;
+}
+.oficina-virtual-ingresar .md-form .prefix.active{
+    color: #006073;
+}
+.oficina-virtual-ingresar .md-form label {
+    color: #fff;
+}
+.oficina-virtual-ingresar .md-form input[type=text] {
+    padding-left: 2.5rem;
+    margin-left: 0px;
+    color: #fff;
+}
+.oficina-virtual-ingresar .md-form input {
+    /*padding-bottom: 0rem;*/
+}
+.oficina-virtual-ingresar .md-form input[type=text]:focus:not([readonly])+label {
+    color: #fff;
+}
+.oficina-virtual-ingresar .md-form input[type=text]:focus:not([readonly]) {
+    
+    box-shadow: 0 1px 0 0 #006073;
+    border-bottom: 1px solid #006073;
+}
+.oficina-virtual-ingresar .md-form button.button-ingresar {
+    color: #006073!important;
+    background: #fff;
+    width: 100%;
+    margin: 0;
+    border-radius: 40px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.oficina-virtual-ingresar .md-form button.button-ingresar span.fa {
+    
+    font-size: 1rem;
+}
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+
+.md-form-filled {
+    position: relative;
+    margin-top: 1.5rem;
+}
+.oficina-virtual-ingresar .md-form-filled label span {
+    margin-left: 6px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in {
+    opacity: 0;
+}
+
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in + label:after {
+    border-radius: 2px;
+}
+  
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in + label:before,
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in + label:after {
+    content: '';
+    left: 0;
+    position: absolute;
+    transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
+    z-index: 1;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:not(:checked) + label:before {
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    left: 6px;
+    top: 10px;
+    -webkit-transform: rotateZ(37deg);
+    transform: rotateZ(37deg);
+    -webkit-transform-origin: 20% 40%;
+    transform-origin: 100% 100%;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:not(:checked) + label:after {
+    height: 16px;
+    width: 16px;
+    margin-top: 2px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    top: 0px;
+    z-index: 0;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:checked + label:before {
+    top: 2px;
+    left: 1px;
+    width: 8px;
+    height: 13px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotateZ(37deg);
+    transform: rotateZ(37deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:checked + label:after {
+    top: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    border: 2px solid #006073;
+    background-color: #006073;
+    z-index: 0;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in.tabbed:focus + label:after {
+    border-radius: 2px;
+    border-color: #5a5a5a;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in.tabbed:checked:focus + label:after {
+    border-radius: 2px;
+    background-color: #006073;
+    border-color: #006073;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:disabled:not(:checked) + label:before {
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:disabled:not(:checked) + label:after {
+    border-color: transparent;
+    background-color: #BDBDBD;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:disabled:checked + label:before {
+    background-color: transparent;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:disabled:checked + label:after {
+    background-color: #BDBDBD;
+    border-color: #BDBDBD;
+}
+
+.form-check .mitad {
+    width: 50%;
+    float: left;
+}
+.olvidelaclave {
+    color: #fff;
+}
+.olvidelaclave a {
+    color: #fff;
+    font-size: 1rem;
 }
 @media(max-width:992px){
     .col-oficina-virtual {    
         padding-right: 0px!important;
     }
-
 }
 .oficina-virtual-plus {
     width: 100%;
     float: left;
     background: url("../images/home/fondo-oficina-virtual-plus.jpg") no-repeat center center;
 }
-.oficina-virtual-plus h5 {
-    margin-left: 40px;
-    font-size: 1.5rem;
-}
-.oficina-virtual-plus .epeconline {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 0;
-    font-weight: 400;
-}
-.oficina-virtual-link {
-    
-}
-.oficina-virtual-links {
-    margin-top: 20px;
-}
-.oficina-virtual-link a {
-    color: #000;
-    text-decoration: none;
-    font-weight: 400;
-    margin-left: 40px;
-    
-}
-.oficina-virtual-ingresar {
+.oficina-virtual-quiero-ingresar {
+    padding: 1rem 0;
+    float: left;
     width: 100%;
+}
+.oficina-virtual-quiero-ingresar h5{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.oficina-virtual-quiero-ingresar .access-links {
+    margin-top: 1rem;
+    float: left;
+    width: 100%;
+}
+.oficina-virtual-quiero-ingresar .access-link {
+    width: 33%;
+    float: left;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
-.oficina-virtual-ingresar .button-ingresar {
-    border: 1px solid #fff;
-    background: #fff;
+.oficina-virtual-quiero-ingresar .access-link a{
     color: #000;
-    border-radius: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 210px;
-    height: 48px;
-    font-size: 15px;
-    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.oficina-virtual-bottomlinks {
-    margin-bottom: 40px;
-    float: right;
+.oficina-virtual-quiero-ingresar .access-link img{
+    clear: both;
 }
-.oficina-virtual-bottomlink {
+.oficina-virtual-quiero-ingresar .access-registrate {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    float: left;
     width: 100%;
-    text-align: right;
-    float: right;
-    margin-right: 40px;
 }
-.olvidelaclave a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 500;
+.oficina-virtual-quiero-ingresar .access-registrate a{
+    color: #000;
+    font-weight: 700;
 }
+
+@media (min-width:576px) and (max-width:991px){
+    .oficina-virtual-quiero-ingresar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .oficina-virtual-quiero-ingresar .access-link {
+        text-align: left;
+    }
+    .oficina-virtual-quiero-ingresar .access-link img {
+        float: left;
+    }
+    .oficina-virtual-quiero-ingresar .access-link div {
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 10px;
+        float: left;
+    }
+}
+
+
+
 .oficina-virtual-carousel {
     width: 90%;
     margin-left: 5%;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 .oficina-virtual-carousel .carousel-control-next, .oficina-virtual-carousel .carousel-control-prev {
 width: 5%;
@@ -436,6 +634,7 @@ width: 5%;
 .oficina-virtual-carousel .carousel-item img {    
     margin: 0 auto;
 }
+
 nav.navbar ul.navbar-nav {
     margin-top: 10px;
 }

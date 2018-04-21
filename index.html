@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">-->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/mdb.min.css">
         <link rel="stylesheet" href="assets/fontawesome/css/fontawesome-all.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/footer.css">
@@ -28,14 +29,14 @@
                 </div>
                 <div class="comment float-right">
                     <a href="#">
-                        <img src="images/template/i-comunidad-epec-blog.png"><span class="d-none d-sm-block">Comunidad Epec</span>
+                        <img src="assets/images/i-comunidad-epec-blog.png"><span class="d-none d-sm-block">Comunidad Epec</span>
                     </a>
                 </div>
             </div>
             <div class="topbar-inner d-lg-none">
                 <div class="comment float-left">
                     <a href="#">
-                        <img src="images/template/i-comunidad-epec-blog.png">
+                        <img src="assets/images/i-comunidad-epec-blog.png">
                     </a>
                 </div>
                 <div class="topsearch float-right">
@@ -142,24 +143,63 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-oficina-virtual">
                     <div class="oficina-virtual">
                         <div class="oficina-virtual-plus">
+                            <div class="loguito"><img src="assets/images/home/logo-oficina-virtual-plus.png"></div>
                             <p class="epeconline">Epec Online</p>
                             <h5>OFICINA VIRTUAL PLUS</h5>
-                            <div class="oficina-virtual-links">
-                                <div class="oficina-virtual-link"><a href="#">> Consultá tu cuenta</a></div>
-                                <div class="oficina-virtual-link"><a href="#">> Avisos</a></div>
-                            </div>
-                            <div class="oficina-virtual-ingresar">
-                                <button class="btn button-ingresar button-white btn-ripple" type="button">Ingresar</button>
-                            </div>
 
-                            <div class="oficina-virtual-bottomlinks">
-                                <div class="oficina-virtual-bottomlink">
-                                    <small id="emailHelp" class="form-text float-right olvidelaclave"><a href="#">Olvidé la clave</a></small>
+                            <div class="oficina-virtual-ingresar">
+
+                                <!-- Material input -->
+                                <div class="md-form">
+                                    <i class="fa fa-user prefix"></i>
+                                    <input type="text" id="user" name="user" class="form-control">
+                                    <label for="user">Usuario</label>
                                 </div>
-                                <div class="oficina-virtual-bottomlink">
-                                    <small id="emailHelp" class="form-text float-right olvidelaclave"><a href="#">Registrate ahora</a></small>
+
+                                <div class="md-form">
+                                    <i class="fa fa-lock prefix"></i>
+                                    <input type="text" id="pass" name="pass" class="form-control">
+                                    <label for="pass">Contraseña</label>
                                 </div>
-                            </div>                            
+                                <div class="md-form">
+                                    <button class="btn button-ingresar button-white btn-ripple" type="button"><span>Ingresar</span> <span class="fa fa-external-link-alt" aria-hidden="true"></span></button>
+                                </div>
+                                
+                                <div class="md-form-filled">                                        
+                                    <!-- Filled-in checkbox -->
+                                    <div class="form-check">
+                                        <div class="mitad left">
+                                            <input class="form-check-input filled-in" type="checkbox" value="" id="RecordarCheckbox" name="recordar">
+                                            <label class="form-check-label" for="RecordarCheckbox">
+                                                <span>Recordar</span>
+                                            </label>
+                                        </div>
+                                        <div class="mitad right">
+                                            <div class="float-right olvidelaclave"><a href="#">Olvidé la clave</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                                        
+                        </div>   
+                        <div class="oficina-virtual-quiero-ingresar">
+                            <h5>QUIERO INGRESAR CON:</h5>
+                            <div class="access-links">
+                                <div class="access-link-inner">
+                                    <div class="access-link facebook">
+                                        <a href="#"><img src="images/redes/i-facebook.png" alt="facebook"><div>Facebook</div></a>
+                                    </div>
+                                    <div class="access-link twitter">
+                                        <a href="#"><img src="images/redes/i-twitter.png" alt="twitter"><div>Twitter</div></a>
+                                    </div>
+                                    <div class="access-link clave-fiscal">
+                                        <a href="#"><img src="images/redes/i-clave-fiscal.png" alt="clave-fiscal"><div>Clave Fiscal</div></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="access-registrate">
+                                <p>No eres miembro? <a href="#"> Registrate</a></p>
+                            </div>
                         </div>                       
                         <div><p><br></p></div>
                     </div>
@@ -354,9 +394,10 @@
 
     </section>
 
-    <script src="assets/bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap/js/jquery-3.2.1.min.js"></script>
     <script src="assets/bootstrap/js/popper.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/mdb.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
