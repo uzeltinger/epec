@@ -1,0 +1,241 @@
+/*      SERVICIOS       */
+.containerhacemos {
+    width: 100%;
+}
+.cols-5 article {
+    width: 20%;
+    float: left;
+}
+@media(max-width:990px){
+    .cols-5 article {
+        width: 50%;
+        margin-bottom: 2px;
+        height: 224px;
+    }
+}
+.mod-newsflash-adv.services {
+    margin-bottom: 30px;
+}
+.mod-newsflash-adv.services .item {
+  padding-top: 30px;
+}
+.mod-newsflash-adv.services .item .item_content {
+  color: #6d747a;
+  line-height: 18px;
+  padding: 130px 20px 14px;
+  position: relative;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.mod-newsflash-adv.services .item .item_content_texto {
+    color: #6d747a;
+}
+
+
+.mod-newsflash-adv.services .item .item_content .item_title {
+  text-align: center;
+  min-height: 20px;
+  
+}
+.mod-newsflash-adv.services .item .item_content .item_title {
+font-size: 18px;
+}
+.item_num1 .item_content .item_title a {
+    color: #006D59;
+    }
+.item_num2 .item_content .item_title a {
+    color: #035F75;
+    }
+.item_num3 .item_content .item_title a {
+    color: #622180;
+    }
+.item_num4 .item_content .item_title a {
+    color: #FABA00;
+    }
+.item_num5 .item_content .item_title a {
+    color: #006D59;
+    }
+
+.page-header h1.item_title_num1 {
+    color: #006D59;
+    }
+.page-header h1.item_title_num2 {
+    color: #035F75;
+    }
+.page-header h1.item_title_num3 {
+    color: #622180;
+    }
+.page-header h1.item_title_num4 {
+    color: #FABA00;
+    }
+.page-header h1.item_title_num5 {
+    color: #006D59;
+    }   
+
+.image_servicios img {
+    max-width: 100%;
+}
+
+.mod-newsflash-adv.services a:hover {
+  text-decoration: none;
+}
+.item_content .item_introtext {
+    text-align: center;
+}
+.item_content_texto  {
+    text-align: center;
+}
+.item_content_texto .item_introtext {
+    text-align: center;
+}
+.mod-newsflash-adv.services .item .item_content:before {
+  position: absolute;
+  left: 50%;
+  height: 80px;
+  margin-left: -40px;
+  top: 20px;
+  background: #f8f8f8;
+  border: 1px solid #b8b8b9;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  border-radius: 1000px;
+  padding: 4px;
+  content: "";
+  width: 80px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.mod-newsflash-adv.services .item_num1 .item_content:before {
+    border: 1px solid #006D59;
+    background: #fff;
+    }
+.mod-newsflash-adv.services .item_num2 .item_content:before {
+    border: 1px solid #035F75;
+    background: #fff;
+    }
+.mod-newsflash-adv.services .item_num3 .item_content:before {
+    border: 1px solid #622180;
+    background: #fff;
+    }
+.mod-newsflash-adv.services .item_num4 .item_content:before {
+    border: 1px solid #FABA00;
+    background: #fff;
+    }
+.mod-newsflash-adv.services .item_num5 .item_content:before {
+    border: 1px solid #006D59;
+    background: #fff;
+    }
+.mod-newsflash-adv.services .item .item_content:after {
+  position: absolute;
+  left: 50%;
+  height: 80px;
+  margin-left: -40px;
+  top: 20px;
+  background: url(../images/template/icon1.png) center 0 no-repeat;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  border-radius: 1000px;
+  content: "";
+  width: 80px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.mod-newsflash-adv.services .item:hover .item_content {
+  background: white;
+  border-color: #fe831a;
+}
+.mod-newsflash-adv.services .item:hover .item_content:before {
+  background: #f8f8f8;
+  border: 1px solid #fe831a;
+}
+.mod-newsflash-adv.services .item:hover .item_content:after {
+  background-position: center bottom !important;
+}
+
+
+.mod-newsflash-adv.services .item_num1:hover .item_content:after {
+  background-color: #006D59 !important;
+  border: 1px solid #006D59;
+}
+.mod-newsflash-adv.services .item_num2:hover .item_content:after {
+  background-color: #035F75 !important;
+  border: 1px solid #035F75;
+}
+.mod-newsflash-adv.services .item_num3:hover .item_content:after {
+  background-color: #622180 !important;
+  border: 1px solid #622180;
+}
+.mod-newsflash-adv.services .item_num4:hover .item_content:after {
+  background-color: #FABA00 !important;
+  border: 1px solid #FABA00;
+}
+.mod-newsflash-adv.services .item_num5:hover .item_content:after {
+  background-color: #006D59 !important;
+  border: 1px solid #006D59;
+}
+
+.item_num1 .item_content_texto .item_title  {
+    color: #006D59;
+    }
+.item_num2 .item_content_texto .item_title  {
+    color: #035F75;
+    }
+.item_num3 .item_content_texto .item_title  {
+    color: #622180;
+    }
+.item_num4 .item_content_texto .item_title  {
+    color: #FABA00;
+    }
+ .item_num5 .item_content_texto .item_title  {
+    color: #006D59;
+    } 
+
+.item_num1 .item_content .item_title  {
+    color: #006D59;
+    }
+.item_num2 .item_content .item_title  {
+    color: #035F75;
+    }
+.item_num3 .item_content .item_title  {
+    color: #622180;
+    }
+.item_num4 .item_content .item_title  {
+    color: #FABA00;
+    }
+ .item_num5 .item_content .item_title  {
+    color: #006D59;
+    }   
+
+.mod-newsflash-adv.services .item.icon-solicitud-de-servicio .item_content:after {
+  background: url(../images/servicios/solicitud-de-servicio.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .item.icon-reclamos .item_content:after {
+  background: url(../images/servicios/reclamos.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .item.icon-denuncias-ilicitos .item_content:after {
+  background: url(../images/servicios/denuncias-ilicitos.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .item.icon-pago-electronico .item_content:after {
+  background: url(../images/servicios/pago-electronico.png) center 0 no-repeat;
+}
+.mod-newsflash-adv.services .item.icon-cambiar-domicilio-postal .item_content:after {
+  background: url(../images/servicios/cambiar-domicilio-postal.png) center 0 no-repeat;
+}
+.row-ver-mas {
+    width: 100%;
+}
+.mini-vermas {
+    float:right;
+    color: #006D59;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 10px;
+}
