@@ -73,6 +73,17 @@ a .ripple {
 .topbar {
     width: 100%;
 }
+.top-return {
+    color: #fff;
+}
+.top-return a {
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.top-return a i{
+    margin-right: 6px;
+}
 .topbar .topsearch-input {
     background-color: transparent;
     border: 1px solid #fff;
@@ -80,6 +91,10 @@ a .ripple {
     height: 30px;
     color: #fff;
     border-right: none;
+    padding: .375rem .75rem; 
+}
+.topbar .waves-input-wrapper {
+    border-radius: 0;
 }
 .topsearch ::-webkit-input-placeholder { 
     color:    #d1d1d1!important;
@@ -109,6 +124,8 @@ a .ripple {
     height: 30px;
     padding: 1px 6px;
     color: #fff;
+    margin: 0;
+    box-shadow: none;
 }
 .topbar button:hover {
     color: #006D59;
@@ -693,7 +710,9 @@ nav.navbar ul.navbar-nav li.nav-item.active {
 nav.navbar ul.navbar-nav li.nav-item.active a{
     color: #006D59;
 }
-
+.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    background-color:transparent;
+}
 .sticky-container{
     padding:0px;
     margin:0px;

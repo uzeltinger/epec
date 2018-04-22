@@ -1,0 +1,168 @@
+.oficina-virtual-plus .epeconline {
+    width: 90%;
+}
+.oficina-virtual-plus h5 {
+    width: 90%;
+}
+.backbroundbluedark {
+    background: #1F6075;
+}
+.section-oficina-virtual h2 {
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: 400;
+    font-size: .9rem;
+}
+.section-oficina-virtual p {
+    color: #fff;
+    font-size: 0.7rem;
+}
+.md-form-user {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.md-form-pass {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
+.section-oficina-virtual-content {
+    margin-top: 1rem;
+}
+.oficina-virtual-ingresar-right .md-form {
+    margin-top: 0;
+}
+.oficina-virtual-ingresar-right .md-form-filled {
+    margin-top: .2rem;
+}
+.oficina-virtual-ingresar .md-form button.button-ingresar {
+    font-size: .8rem;
+    padding: .5rem;
+    margin-top: 1.5rem;
+}
+.oficina-virtual-ingresar .md-form-filled label span {
+    font-size: .8rem;
+    margin-left: 0;
+}
+.olvidelaclave a {
+    font-size: .8rem;
+}
+.oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:not(:checked) + label:after {
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+}
+.oficina-virtual-ingresar .md-form .prefix.active {
+    color: #fff;
+}
+.oficina-virtual-quiero-ingresar .access-link {
+    width: 100%;
+}
+.oficina-virtual-quiero-ingresar .access-link div.icono {
+    float: left;
+    width: auto;
+}
+.oficina-virtual-quiero-ingresar .access-link div.titlered {
+    height: 40px;
+    padding-top: 4px;
+    padding-left: 10px;
+    float: left;
+    width: auto;
+}
+.oficina-virtual-quiero-ingresar .access-links {
+    margin-left: 1rem;
+}
+.oficina-virtual-quiero-ingresar .access-registrate button {
+    FLOAT: LEFT;
+    color: #fff!important;
+    background: #035F75;
+    border-radius: 40px;
+    font-size: .8rem;
+    padding: .5rem 2rem;
+}
+.oficina-virtual-quiero-ingresar .listado {
+    float: left;
+}
+.oficina-virtual-quiero-ingresar .listado ul{
+    margin-top: .5rem;
+}
+.oficina-virtual-quiero-ingresar .listado ul li{
+    color: #000;
+    font-size: .9rem;
+    font-weight: 400;
+}
+.card {
+    box-shadow: none;
+}
+.card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+.card-header a {
+    display: block;
+    padding: .5rem 1.25rem;
+    font-size: 1rem;
+    color:#035F75;
+    margin-bottom: 1rem;
+}
+.card-header a {
+    background: #B6E1E4;
+    border-bottom: 3px solid #035F75;
+}
+
+.card-header a:after {    
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    float: right;
+    color:#035F75;
+}
+.card-header a.collapsed:after {
+    content: "\f105";
+}
+.card-body {
+    font-size: 1rem;
+}
+.textblue {
+    color:#035F75;
+}
+.textblack {
+    color: #333;
+}
+.textgrey {
+    color: #999;
+}
+.textpink {
+    color: #D3916F;
+}
+
+@media (max-width:992px){
+    .section-oficina-virtual {
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width:768px){
+    .oficina-virtual-plus .epeconline {
+        width: 80%;
+    }
+    .oficina-virtual-plus h5 {
+        width: 80%;
+    }
+}
+@media (max-width:576px){
+    .oficina-virtual-ingresar-left .md-form-user,
+    .oficina-virtual-ingresar-left .md-form-pass {
+        width: 100%;
+    }
+}
+@media (max-width:400px){
+    .oficina-virtual-plus .epeconline {
+        width: 70%;
+    }
+    .oficina-virtual-plus h5 {
+        width: 70%;
+    }
+}
