@@ -380,7 +380,7 @@ section.home .paga-tu-factura {
 
 .oficina-virtual-ingresar {
     width: 100%;
-    float: left;
+    display: inline-block;
 }
 .md-form {
     color: #fff;
@@ -543,9 +543,16 @@ section.home .paga-tu-factura {
     }
 }
 .oficina-virtual-plus {
+    width: 100%;    
+    background:#4E8087 url("../images/home/fondo-oficina-virtual-plus.jpg") no-repeat center center;
+}
+.oficina-virtual-ingresar-left {        
+    display: inline-block;
     width: 100%;
-    float: left;
-    background: url("../images/home/fondo-oficina-virtual-plus.jpg") no-repeat center center;
+}
+.oficina-virtual-header {
+    display: inline-block;
+    width: 100%;
 }
 .oficina-virtual-quiero-ingresar {
     padding: 1rem 0;
@@ -573,15 +580,30 @@ section.home .paga-tu-factura {
     font-size: 1rem;
     font-weight: 400;
 }
-.oficina-virtual-quiero-ingresar .access-link img{
+.oficina-virtual-quiero-ingresar .access-link div.icono{
     clear: both;
+    width: 100%;
+    text-align: center;
+}
+.oficina-virtual-quiero-ingresar .access-link div.titlered {
+    text-align: center;
+    width: 100%;
+}
+.oficina-virtual-quiero-ingresar .access-link.facebook div.icono{
+    color: #284474;
+}
+.oficina-virtual-quiero-ingresar .access-link.twitter div.icono{
+    color: #0192B0;
+}
+.oficina-virtual-quiero-ingresar .access-link.clave-fiscal div.icono{
+    color: #6C6C6C;
 }
 .oficina-virtual-quiero-ingresar .access-registrate {
     color: #000;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: .5rem;
     float: left;
     width: 100%;
 }
@@ -590,6 +612,18 @@ section.home .paga-tu-factura {
     font-weight: 700;
 }
 
+.oficina-virtual-quiero-ingresar .access-link div {
+    float: left;
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+.oficina-virtual-quiero-ingresar .access-link div.titlered {
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    font-size: 1rem;
+}
 @media (min-width:576px) and (max-width:991px){
     .oficina-virtual-quiero-ingresar {
         padding-left: 30px;
@@ -598,14 +632,16 @@ section.home .paga-tu-factura {
     .oficina-virtual-quiero-ingresar .access-link {
         text-align: left;
     }
-    .oficina-virtual-quiero-ingresar .access-link img {
+    .oficina-virtual-quiero-ingresar .access-link div.icono {
         float: left;
+        width: auto;
     }
-    .oficina-virtual-quiero-ingresar .access-link div {
+    .oficina-virtual-quiero-ingresar .access-link div.titlered {
         height: 40px;
-        padding-top: 10px;
+        padding-top: 4px;
         padding-left: 10px;
         float: left;
+        width: auto;
     }
 }
 
