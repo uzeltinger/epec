@@ -614,6 +614,8 @@ section.home .paga-tu-factura {
 .oficina-virtual-carousel {
     width: 90%;
     margin-left: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .oficina-virtual-carousel .carousel-control-next, .oficina-virtual-carousel .carousel-control-prev {
 width: 5%;
