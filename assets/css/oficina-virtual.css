@@ -1,3 +1,10 @@
+.section-oficina-virtual {
+    width: 100%;
+    background: #4E8087 url(../images/home/fondo-oficina-virtual-plus.jpg) no-repeat center center;
+}
+.section-oficina-virtual .oficina-virtual-plus {
+    background: none;
+}
 .oficina-virtual-plus .epeconline {
     width: 90%;
 }
