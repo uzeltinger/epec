@@ -356,7 +356,8 @@ section.home .paga-tu-factura {
 
 
 .section-oficina-virtual {
-
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .oficina-virtual-container {
 
@@ -371,7 +372,8 @@ section.home .paga-tu-factura {
     
 }
 .oficina-virtual-plus {
-    padding: 15px;
+    
+    padding: .8rem 1rem .5rem 1rem;
 }
 .oficina-virtual-plus .loguito {
     float: left;
@@ -399,24 +401,28 @@ section.home .paga-tu-factura {
     width: 100%;
     display: inline-block;
 }
-.md-form {
+.oficina-virtual-ingresar .md-form {
     color: #fff;
+    margin-top: .5rem;
 }
 .oficina-virtual-ingresar .md-form .prefix {
     color: #fff;
-    top: 0.75rem;
-    font-size: 1rem;
+    /*top: 0.75rem;*/
+    font-size: .8rem;
 }
 .oficina-virtual-ingresar .md-form .prefix.active{
-    color: #006073;
+    color: #fff;
 }
 .oficina-virtual-ingresar .md-form label {
     color: #fff;
 }
 .oficina-virtual-ingresar .md-form input[type=text] {
     padding-left: 2.5rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
     margin-left: 0px;
     color: #fff;
+    font-size: .8rem;
 }
 .oficina-virtual-ingresar .md-form input {
     /*padding-bottom: 0rem;*/
@@ -424,22 +430,56 @@ section.home .paga-tu-factura {
 .oficina-virtual-ingresar .md-form input[type=text]:focus:not([readonly])+label {
     color: #fff;
 }
-.oficina-virtual-ingresar .md-form input[type=text]:focus:not([readonly]) {
-    
+.oficina-virtual-ingresar .md-form input[type=text]:focus:not([readonly]) {    
     box-shadow: 0 1px 0 0 #006073;
     border-bottom: 1px solid #006073;
 }
+
+.oficina-virtual-ingresar .md-form ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+    font-weight: 300;
+}
+.oficina-virtual-ingresar .md-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   font-weight: 300;
+   opacity:  1;
+}
+.oficina-virtual-ingresar .md-form ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   font-weight: 300;
+   opacity:  1;
+}
+.oficina-virtual-ingresar .md-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+   font-weight: 300;
+}
+.oficina-virtual-ingresar .md-form ::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+   font-weight: 300;
+}
+
+.oficina-virtual-ingresar .md-form ::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+   font-weight: 300;
+}
+
+
 .oficina-virtual-ingresar .md-form button.button-ingresar {
     color: #006073!important;
     background: #fff;
     width: 100%;
     margin: 0;
     border-radius: 40px;
-    font-size: 1rem;
-    margin-top: 1rem;
+    font-size: .8rem;
+    margin-top: .2rem;
+    padding: .5rem 2rem;
 }
-.oficina-virtual-ingresar .md-form button.button-ingresar span.fa {
-    
+@media (max-width:575px){
+    .oficina-virtual-ingresar .md-form button.button-ingresar {
+        background: #fff;
+    }
+}
+.oficina-virtual-ingresar .md-form button.button-ingresar span.fa {    
     font-size: 1rem;
 }
 .form-check {
@@ -450,12 +490,12 @@ section.home .paga-tu-factura {
 
 .md-form-filled {
     position: relative;
-    margin-top: 1.5rem;
+    margin-top: .4rem;
 }
 .oficina-virtual-ingresar .md-form-filled label span {
-    margin-left: 6px;
+    margin-left: 0;
     color: #fff;
-    font-size: 1rem;
+    font-size: .8rem;
     cursor: pointer;
 }
 .oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in {
@@ -486,8 +526,8 @@ section.home .paga-tu-factura {
     transform-origin: 100% 100%;
 }
 .oficina-virtual-ingresar .md-form-filled [type="checkbox"].filled-in:not(:checked) + label:after {
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
     margin-top: 2px;
     background-color: transparent;
     border: 1px solid #fff;
@@ -552,16 +592,22 @@ section.home .paga-tu-factura {
 }
 .olvidelaclave a {
     color: #fff;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: .8rem;
 }
 @media(max-width:992px){
     .col-oficina-virtual {    
         padding-right: 0px!important;
     }
 }
+.col-oficina-virtual-inner {    
+    background:#4E8087 url("../images/home/fondo-oficina-virtual-plus.jpg") no-repeat center center;
+    display: inline-block;
+    width: 100%;
+}
 .oficina-virtual-plus {
     width: 100%;    
-    background:#4E8087 url("../images/home/fondo-oficina-virtual-plus.jpg") no-repeat center center;
+    /*background:#4E8087 url("../images/home/fondo-oficina-virtual-plus.jpg") no-repeat center center;*/
 }
 .oficina-virtual-ingresar-left {        
     display: inline-block;
@@ -572,18 +618,23 @@ section.home .paga-tu-factura {
     width: 100%;
 }
 .oficina-virtual-quiero-ingresar {
-    padding: 1rem 0;
+    padding: .5rem 0;
     float: left;
     width: 100%;
+    /*background: #D0DCDE;*/
+
+    background: rgba(255, 255, 255, 0.7);
+    
 }
 .oficina-virtual-quiero-ingresar h5{
-    font-size: 1rem;
+    font-size: .8rem;
+    padding-left: .5rem;
     color: #000;
     font-weight: 400;
 }
 
 .oficina-virtual-quiero-ingresar .access-links {
-    margin-top: 1rem;
+    margin-top: 0;
     float: left;
     width: 100%;
 }
@@ -617,12 +668,15 @@ section.home .paga-tu-factura {
 }
 .oficina-virtual-quiero-ingresar .access-registrate {
     color: #000;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
     text-align: center;
     margin-top: .5rem;
     float: left;
     width: 100%;
+}
+.oficina-virtual-quiero-ingresar .access-registrate p{
+    margin-bottom: 0;
 }
 .oficina-virtual-quiero-ingresar .access-registrate a{
     color: #000;
@@ -632,14 +686,14 @@ section.home .paga-tu-factura {
 .oficina-virtual-quiero-ingresar .access-link div {
     float: left;
     font-size: 2rem;
-    margin-top: .5rem;
+    margin-top: 0;
 }
 .oficina-virtual-quiero-ingresar .access-link div.titlered {
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 10px;
+    
+    padding-top: 0px;
+    padding-left: 0px;
     float: left;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 @media (min-width:576px) and (max-width:991px){
     .oficina-virtual-quiero-ingresar {
@@ -661,14 +715,16 @@ section.home .paga-tu-factura {
         width: auto;
     }
 }
-
-
-
 .oficina-virtual-carousel {
     width: 90%;
     margin-left: 5%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@media (max-width:991px){
+    .oficina-virtual-carousel {
+        margin-top: 15px;
+    }
 }
 .oficina-virtual-carousel .carousel-control-next, .oficina-virtual-carousel .carousel-control-prev {
 width: 5%;

@@ -19,3 +19,6 @@ function createRipple (e) {
     console.log(this);
     circle.classList.add('ripple');
 }
+var button_registrate = document.getElementsByClassName('button-registrate');
+console.log(button_registrate);
+button_registrate.addEventListener('click', function(){window.location.assign("oficina-virtual.html")});
