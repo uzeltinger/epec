@@ -57,7 +57,11 @@
     text-decoration: none;
     margin-right: 10px;
 }
-
+@media (max-width: 768px) { 
+    .navbar-brand img {
+        height: 40px;
+    }
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .informacion, .informacion-inner, .informacion .opacidad {
@@ -192,15 +196,16 @@
 .oficina-virtual-ingresar-right {
     padding-top: 1rem;
     padding-bottom: .5rem;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.3);
     float: right;
-    height: 200px;
+    min-height: 200px;
 }
  .oficina-virtual-ingresar-right p.info {
     color: #035F75;
     margin-bottom: 0;
     text-align: center;
-        font-size: .9rem;
+    font-size: .9rem;
+   font-weight: 400;
 }
 .oficina-virtual-quiero-ingresar {
     background: none;
@@ -212,7 +217,7 @@
     padding: 1rem;
 }
 .oficina-virtual-ingresar-right {
-    padding: 1rem;
+    padding: 1rem .4rem;
     width: 100%;
     float: left;
 }
@@ -242,10 +247,38 @@
     padding-right: 0px;
 }
 
-
+/*
+.oficina-virtual-quiero-ingresar .access-link a {
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+}
+*/
+.oficina-virtual-quiero-ingresar .access-link div {
+        float: left;
+        font-size: 1.5rem;
+    }
+@media (min-width:350px){
+    .oficina-virtual-ingresar-left {
+        padding: 1rem 2rem;
+    }
+    .oficina-virtual-header {
+        margin-bottom: 1rem;
+    }
+    .oficina-virtual-quiero-ingresar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .oficina-virtual-quiero-ingresar .access-links {
+        width: 320px;
+        margin: 0 auto;
+        float: none;
+    }
+    
+}
 @media (max-width:575px){
     .oficina-virtual-ingresar-right p.info{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 }
 @media (min-width:768px){
@@ -260,17 +293,25 @@
     .oficina-virtual-ingresar-right {
         width: 50%;
         float: left;
-    }    
+    }
+     
+}
+@media (max-width:768px){
+ .oficina-virtual-quiero-ingresar h5 {
+        margin-top: 10px;   
+        margin-bottom: 10px;     
+    }  
 }
 @media (min-width:768px) and (max-width: 1199px) { 
     .col-oficina-virtual, .oficina-virtual-ingresar-right {
-        height: 250px;
+        height: 270px;
     }
     .oficina-virtual-quiero-ingresar h5 {
-        margin-top: 24px;        
+        margin-top: 24px;   
+        margin-bottom: 24px;     
     }
     .oficina-virtual-plus {
-        height: 250px;
+        height: 270px;
     }
 }
 
@@ -290,7 +331,7 @@
     }
     .perfil-links-ayuda .link-faq {  
         background: #C1C1C1;      
-        height: 125px;
+        height: 135px;
     }
     .perfil-links-ayuda .link-faq a{
         margin-top: 10px;
@@ -304,7 +345,7 @@
         color: #006D59;
     }
     .perfil-links-ayuda .link-informacion-general {
-        height: 125px;
+        height: 135px;
         background: #006D59;
     }
     .perfil-links-ayuda .link-informacion-general a{
@@ -324,6 +365,9 @@
     }
     .perfil-links-ayuda .link-faq p {
         display: block;
+    }
+    .oficina-virtual-quiero-ingresar .access-links {
+        width: 280px;
     }
  }
 
